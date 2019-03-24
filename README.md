@@ -71,3 +71,74 @@ scope = [1,2,3,4,5]
 for x in scope:
     print(x)
 ```
+
+7. 자료형 출력 개념
+```python
+a = 200
+msg = 'I love Python'
+list_data = {'a':97, 'b':98}
+print(a)
+print(msg)
+print(list_data)
+print(list_data[0])
+print(dict_data)
+print(dict_dict['a'])
+```
+
+```python
+dic=['a':97, 'b':98, 'c':99, 'd':100]
+for x in dic:
+    print(x)
+```
+
+```python
+for x in range(10)
+    print(x)
+```
+
+8. for,continue,break 문
+```python
+scope = [1,2,3,4,5]
+for x in scope:
+    print(x)
+    if x < 3:
+         continue
+    else:
+         break
+```
+
+9. for~else 문
+```python
+scope = [1,2,3]
+for x in scope:
+    print(x)
+else:
+    print('Perfect')
+```
+
+10. while 문
+```python
+x = 0
+while x < 10:
+    x = x+1
+    if x < 3:
+         continue
+    print(x)
+    if x > 7:
+         break
+```
+
+```python
+x = 1
+total = 0
+while 1:
+    total = tatal + x
+    if total > 100000:
+         print(x)
+         print(total)
+         break
+    x = x + 1
+```
+
+
+
