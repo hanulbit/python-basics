@@ -140,5 +140,33 @@ while 1:
     x = x + 1
 ```
 
+11. None 개념
+```python
+val = None
+condition = 1
+if condition == 1;
+     val = [1,2,3]
+else:
+     val = "I Love Python"\
+```
+
+12. 복소수형 자료
+```python
+c1 = 1 + 7j
+print(c1.real); print(c1.imag)
+c2 = complex(2,3)
+print(c2)
+```
+
+13. 대입연산자 
+```python
+a = 1
+b = 2
+ret = a + b
+print('a와 b를 더한 값은 ', end ='')
+print(ret, end='')
+print(' 입니다')
+```
+
 
 
