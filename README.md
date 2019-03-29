@@ -220,4 +220,12 @@ print(not bool1)
 
 19. 비트연산자
 ```python
-bit1 = 0
+bit1 = 0x61
+bit2 = 0x62
+print(hex(bit1 & bit2)
+print(hex(bit1 |  bit2))
+print(hex(bit1 ^ bit2))
+print(hex(bit >>1))
+```
+
+
