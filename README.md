@@ -168,5 +168,56 @@ print(ret, end='')
 print(' 입니다')
 ```
 
+14. 사칙연산자
+```python
+a = 2
+b = 4
+ret1 = a+b
+ret2 = a-b
+ret3 = a*b
+ret4 = a/b
+ret5 = a**b
+ret6 = a+a*b/a
+ret7 = (a+b)*(a-b)
+ret8 = a*b**a
+```
 
+15.연산자 축약
+```python
+a = 0
+a+=1  ; print(a)
+a-=5  ; print(a)
+a*=2  ; print(a)
+a/=4  ; print(a)
+```
 
+16. True와 False
+```python
+a = True
+b = False
+print(a == 1)
+print(b != 0)
+```
+
+17. 관계연산자
+```python
+x = 1; y = 2
+str1 = 'abc'; str2 = 'python'
+print(x == y)
+print(x != y)
+print(str1 == str2)
+print(str2 == 'python')
+print(str1 < str2)
+```
+
+18. 논리연산자
+```python
+bool1 = True; bool2 = False; bool3 = Ture; bool4 = False
+print(bool and bool2)
+print(bool2 or bool3)
+print(not bool1)
+```
+
+19. 비트연산자
+```python
+bit1 = 0
